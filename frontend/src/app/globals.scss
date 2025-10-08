@@ -31,3 +31,16 @@ a{
   }
 }
 
+button {
+  background-color: green;
+  color: snow;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+  &:hover {
+    background-color: lightgreen;
+  }
+}
